@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 393000
+      },
+      "model": "ocean_additions:animation/ocean_king/rightleg1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393001
+      },
+      "model": "ocean_additions:animation/ocean_king/rightleg2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393002
+      },
+      "model": "ocean_additions:animation/ocean_king/rightleg3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393003
+      },
+      "model": "ocean_additions:animation/ocean_king/leftleg1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393004
+      },
+      "model": "ocean_additions:animation/ocean_king/leftleg2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393005
+      },
+      "model": "ocean_additions:animation/ocean_king/leftleg3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393006
+      },
+      "model": "ocean_additions:animation/ocean_king/tail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393007
+      },
+      "model": "ocean_additions:animation/ocean_king/midbody"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393008
+      },
+      "model": "ocean_additions:animation/ocean_king/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393009
+      },
+      "model": "ocean_additions:animation/ocean_king/rightarm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393010
+      },
+      "model": "ocean_additions:animation/ocean_king/leftarm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393011
+      },
+      "model": "ocean_additions:animation/ocean_king/righthand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 393012
+      },
+      "model": "ocean_additions:animation/ocean_king/lefthand"
+    }
+  ]
+}

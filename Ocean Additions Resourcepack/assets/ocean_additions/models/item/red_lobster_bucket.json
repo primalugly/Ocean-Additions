@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "ocean_additions:item/red_lobster_bucket"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "oa.item.lobster_meat" : "Lobster Meat",
+    "oa.item.boiled_lobster" : "Boiled Lobster",
+    "oa.item.lobster_shell" : "Lobster Shell",
+    "oa.item.lobster_bucket" : "Bucket of Lobster",
+
+    "oa.entity.lobster" : "Lobster",
+
+    "oa.pack" : "Ocean Additions"
+}
