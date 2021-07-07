@@ -6,6 +6,8 @@
   "overrides": [
     { "predicate": {"custom_model_data": 393000},"model": "ocean_additions:item/brown_lobster_bucket"},
     { "predicate": {"custom_model_data": 393001},"model": "ocean_additions:item/red_lobster_bucket"},
-    { "predicate": {"custom_model_data": 393002},"model": "ocean_additions:item/blue_lobster_bucket"}	
+    { "predicate": {"custom_model_data": 393002},"model": "ocean_additions:item/blue_lobster_bucket"},
+    { "predicate": {"custom_model_data": 393003},"model": "ocean_additions:item/kings_claw"},
+    { "predicate": {"custom_model_data": 393004},"model": "ocean_additions:item/broken_kings_claw"}	
   ]
 }

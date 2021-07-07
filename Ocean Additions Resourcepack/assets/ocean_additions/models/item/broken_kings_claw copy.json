@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "ocean_additions:item/broken_kings_claw"
+    }
+  }
