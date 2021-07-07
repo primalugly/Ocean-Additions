@@ -1,0 +1,4 @@
+scoreboard players add @s[scores={oa.timer=..499}] oa.timer 1
+execute if entity @s[scores={oa.timer=..499}] unless block ^ ^ ^0.01 #ocean_additions:raycast_ignore unless block ^ ^ ^0.01 #minecraft:cauldrons align xyz if block ~ ~ ~ #ocean_additions:raycast_ignore if block ~ ~1 ~ #ocean_additions:lobster_survivable run function ocean_additions:entity/lobster/unbucket/summon
+execute if entity @s[scores={oa.timer=..499}] unless block ^ ^ ^0.01 #ocean_additions:raycast_ignore if block ^ ^ ^0.01 #minecraft:cauldrons positioned ^ ^ ^0.01 align xyz if block ~ ~1 ~ #ocean_additions:lobster_survivable if block ~ ~2 ~ #ocean_additions:lobster_survivable positioned ~ ~0.25 ~ run function ocean_additions:entity/lobster/unbucket/summon
+execute if entity @s[scores={oa.timer=..499}] if block ^ ^ ^0.01 #ocean_additions:raycast_ignore positioned ^ ^ ^0.01 run function ocean_additions:entity/lobster/unbucket/raycast

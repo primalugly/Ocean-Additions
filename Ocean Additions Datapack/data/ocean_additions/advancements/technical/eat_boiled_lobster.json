@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "nbt": "{oa:{id:\"boiled_lobster\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ocean_additions:item/eat_boiled_lobster"
+    }
+  }

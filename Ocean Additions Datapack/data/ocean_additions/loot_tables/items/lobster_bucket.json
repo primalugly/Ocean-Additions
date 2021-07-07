@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"lobster_bucket\",lobster:{Tags:[\"oa.entity\",\"oa.lobster\",\"oa.lobster.brown\",\"global.ignore\"]}},CustomModelData:393000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "oa.item.lobster_bucket",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "oa.pack",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"lobster_bucket\",lobster:{Tags:[\"oa.entity\",\"oa.lobster\",\"oa.lobster.red\",\"global.ignore\"]}},CustomModelData:393001}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "oa.item.lobster_bucket",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "oa.pack",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"lobster_bucket\",lobster:{Tags:[\"oa.entity\",\"oa.lobster\",\"oa.lobster.blue\",\"global.ignore\"]}},CustomModelData:393002}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "oa.item.lobster_bucket",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "oa.pack",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

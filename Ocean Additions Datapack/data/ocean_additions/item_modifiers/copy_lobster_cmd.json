@@ -1,0 +1,16 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "oa:storage"
+      },
+      "ops": [
+        {
+          "source": "root.temp.item.oa.lobster.CMD",
+          "target": "CustomModelData",
+          "op": "replace"
+        }
+      ]
+    }
+  ]

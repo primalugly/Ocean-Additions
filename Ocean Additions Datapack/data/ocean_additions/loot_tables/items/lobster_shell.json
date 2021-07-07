@@ -1,0 +1,39 @@
+  {
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{BlockEntityTag:{name:\"oa:item\",id:\"minecraft:structure_block\"},oa:{id:\"lobster_shell\"},oa.item:1b,CustomModelData:393009}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "oa.item.lobster_shell",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "translate": "oa.pack",
+                    "color": "blue",
+                    "italic": true
+                  }
+                ]
+              }
+            ],
+            "name": "minecraft:structure_block"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+execute as @e[tag=oa.lobster,type=wandering_trader] run data modify entity @s HandItems[0] set value {} 

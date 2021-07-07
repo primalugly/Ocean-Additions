@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"lobster_bucket\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "oa.item.lobster_bucket",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "oa.pack",
+                  "color": "blue",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "oa:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.item.tag",
+                  "target": "{}",
+                  "op": "merge"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ]
+    }
+  ]
+}

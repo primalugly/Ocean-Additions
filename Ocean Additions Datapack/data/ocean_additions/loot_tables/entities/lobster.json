@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "ocean_additions:items/lobster_shell"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "ocean_additions:items/lobster_meat"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "stepping_on": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:magma_block"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "ocean_additions:items/boiled_lobster"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:magma_block"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }

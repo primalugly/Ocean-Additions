@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "bucket_lobster": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": ["minecraft:bucket"],
+                      "count": 1
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:reference",
+                  "name": "tcc:full_inventory"
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "items": ["minecraft:bucket"]
+        },
+        "entity": {
+          "nbt": "{Tags:[\"oa.lobster\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ocean_additions:entity/lobster/bucket/raycast_start"
+  }
+}
