@@ -11,6 +11,6 @@
       { "predicate": {"custom_model_data": 393007},"model": "ocean_additions:entity/lobster/wred"},
       { "predicate": {"custom_model_data": 393008},"model": "ocean_additions:entity/lobster/wblue"},
       { "predicate": {"custom_model_data": 393009},"model": "ocean_additions:item/lobster_shell"},
-      { "predicate": {"custom_model_data": 393010},"model": "ocean_additions:entity/sunglasses"}
+      { "predicate": {"custom_model_data": 393010},"model": "ocean_additions:entity/kings_claw"}
     ]
 }
