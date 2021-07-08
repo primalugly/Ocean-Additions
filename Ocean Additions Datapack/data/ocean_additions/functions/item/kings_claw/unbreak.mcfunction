@@ -6,4 +6,4 @@ item modify entity @s weapon.mainhand ocean_additions:kings_claw_change_id
 item modify entity @s weapon.mainhand ocean_additions:kings_claw_update_cmd
 scoreboard players reset @s oa.use_coas
 clear @s minecraft:structure_block{oa:{id:"lobster_shell"}} 1
-playsound minecraft:block.anvil.use player @s
+playsound ocean_additions:entity.kings_claw.repair player @s

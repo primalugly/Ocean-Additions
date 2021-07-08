@@ -9,5 +9,12 @@
     "oa.entity.lobster" : "Lobster",
     "oa.entity.ocean_king" : "Ocean King",
 
+
+
+
+    "oa.subtitle.entity.kings_claw.impact" : "King's Claw Hit",
+    "oa.subtitle.entity.kings_claw.repair": "King's Claw Repaired",
+    "oa.subtitle.entity.kings_claw.crack": "King's Claw Cracked",
+    
     "oa.pack" : "Ocean Additions"
 }
