@@ -1,20 +1,20 @@
-  {
+{
     "pools": [
       {
         "rolls": 1,
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:tropical_fish",
+            "name": "minecraft:carrot_on_a_stick",
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{oa:{id:\"boiled_lobster\"},oa.item:1b,CustomModelData:393001}"
+                "tag": "{oa:{id:\"kings_claw\"},oa.item:1b,CustomModelData:393003,}"
               },
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "translate": "oa.item.boiled_lobster",
+                  "translate": "oa.item.kings_claw",
                   "color": "white",
                   "italic": false
                 }

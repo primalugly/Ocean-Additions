@@ -8,6 +8,9 @@
     { "predicate": {"custom_model_data": 393001},"model": "ocean_additions:item/red_lobster_bucket"},
     { "predicate": {"custom_model_data": 393002},"model": "ocean_additions:item/blue_lobster_bucket"},
     { "predicate": {"custom_model_data": 393003},"model": "ocean_additions:item/kings_claw"},
-    { "predicate": {"custom_model_data": 393004},"model": "ocean_additions:item/broken_kings_claw"}	
+    { "predicate": {"custom_model_data": 393004},"model": "ocean_additions:item/broke_kings_claw_1"},
+    { "predicate": {"custom_model_data": 393005},"model": "ocean_additions:item/broke_kings_claw_2"},
+    { "predicate": {"custom_model_data": 393006},"model": "ocean_additions:item/broke_kings_claw_3"},
+    { "predicate": {"custom_model_data": 393007},"model": "ocean_additions:item/broken_kings_claw"}
   ]
 }
