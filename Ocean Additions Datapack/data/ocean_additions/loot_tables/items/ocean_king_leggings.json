@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "translate": "oa.item.ocean_king_leggings",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "oa.pack",
+                    "color": "blue",
+                    "italic": true
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "translate": "oa.item.ocean_king_armor.description",
+                    "color": "purple",
+                    "italic": false
+                  }
+                ],
+                "replace": false
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{color:393000},HideFlags:68,Unbreakable:1b,CustomModelData:393000,oa:{id:\"ocean_king_leggings\"},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;393000,393000,393000,1],Slot:\"legs\"}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

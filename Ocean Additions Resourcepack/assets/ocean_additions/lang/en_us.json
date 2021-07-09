@@ -6,6 +6,12 @@
     "oa.item.kings_claw" : "King's Claw",
     "oa.item.broken_kings_claw" : "Broken King's Claw",
 
+    "oa.item.ocean_king_helmet" : "Ocean King Helmet",
+    "oa.item.ocean_king_chestplate" : "Ocean King Chestplate",
+    "oa.item.ocean_king_leggings" : "Ocean King Leggings",
+    "oa.item.ocean_king_boots" : "Ocean King Boots",
+    "oa.item.ocean_king_armor.description" : "Changes Properties When Submerged",
+
     "oa.entity.lobster" : "Lobster",
     "oa.entity.ocean_king" : "Ocean King",
     "oa.entity.kings_claw" : "King's Claw",

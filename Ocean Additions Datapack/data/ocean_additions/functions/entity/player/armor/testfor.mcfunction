@@ -1,0 +1,2 @@
+execute if entity @s[predicate=ocean_additions:under_water,tag=!oa.submerged] run function ocean_additions:entity/player/armor/set_nbt_submerged
+execute if entity @s[predicate=!ocean_additions:under_water,tag=!oa.unsubmerged] run function ocean_additions:entity/player/armor/set_nbt_unsubmerged

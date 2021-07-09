@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "feet": {
+        "items": [
+          "minecraft:leather_boots"
+        ],
+        "nbt": "{oa:{id:\"ocean_king_boots\"}}"
+      }
+    }
+  }
+}

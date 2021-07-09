@@ -1,6 +1,7 @@
 {
     "values":[
         "minecraft:wandering_trader",
-        "minecraft:squid"
+        "minecraft:squid",
+        "minecraft:player"
     ]
 }
