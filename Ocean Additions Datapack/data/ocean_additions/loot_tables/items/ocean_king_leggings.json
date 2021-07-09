@@ -41,7 +41,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{color:393000},HideFlags:68,Unbreakable:1b,CustomModelData:393000,oa:{id:\"ocean_king_leggings\"},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;393000,393000,393000,1],Slot:\"legs\"}]}"
+                "tag": "{display:{color:393000},HideFlags:68,Unbreakable:1b,CustomModelData:393000,oa:{id:\"ocean_king_leggings\"},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;393000,393000,393000,3],Slot:\"legs\"}]}"
               }
             ]
           }

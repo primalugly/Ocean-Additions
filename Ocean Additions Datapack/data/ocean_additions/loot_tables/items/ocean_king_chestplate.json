@@ -41,7 +41,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{display:{color:393000},HideFlags:68,Unbreakable:1b,CustomModelData:393000,oa:{id:\"ocean_king_chestplate\"},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;393000,393000,393000,1],Slot:\"chest\"}]}"
+                "tag": "{display:{color:393000},HideFlags:68,Unbreakable:1b,CustomModelData:393000,oa:{id:\"ocean_king_chestplate\"},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;393000,393000,393000,2],Slot:\"chest\"}]}"
               }
             ]
           }
