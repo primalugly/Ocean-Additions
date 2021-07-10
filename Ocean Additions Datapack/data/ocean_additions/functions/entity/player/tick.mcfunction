@@ -1,1 +1,1 @@
-execute as @s[scores={oa.use_coas=1..10}] run function ocean_additions:item/use_carrot_on_a_stick
+execute if entity @s[scores={oa.use_coas=1..}] run function ocean_additions:item/use_carrot_on_a_stick

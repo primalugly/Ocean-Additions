@@ -1,0 +1,55 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "oa:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag.oa",
+        "target": "oa",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "oa.pack",
+        "color": "blue",
+        "italic": true
+      },
+      {
+        "translate": "oa.item.ocean_king_armor.description",
+        "color": "purple",
+        "italic": false
+      },
+      {
+        "translate": "oa.durability",
+        "color": "white",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "#oa.temp.durability",
+              "objective": "oa.fpvalue"
+            },
+            "italic": false
+          },
+          {
+            "text": " / ",
+            "italic": false
+          },
+          {
+            "nbt": "root.temp.item.tag.oa.maxDurability",
+            "storage": "oa:storage"
+          }
+        ]
+      }
+    ],
+    "replace": true
+  }
+]
