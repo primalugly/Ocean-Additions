@@ -1,5 +1,19 @@
 [
   {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "oa:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag.oa",
+        "target": "oa",
+        "op": "replace"
+      }
+    ]
+  },
+  {
     "function": "minecraft:set_lore",
     "entity": "this",
     "lore": [
