@@ -9,6 +9,7 @@ scoreboard objectives add oa.use_coas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add oa.pos.x dummy
 scoreboard objectives add oa.pos.y dummy
 scoreboard objectives add oa.pos.z dummy
+scoreboard objectives add oa.exp xp
 schedule function ocean_additions:entity/lobster/reload 5t
 
 scoreboard objectives add kiko.id dummy

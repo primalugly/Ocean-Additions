@@ -1,0 +1,81 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_helmet\"}}",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:leather_chestplate"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_chestplate\"}}",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "items": [
+                "minecraft:leather_leggings"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_leggings\"}}",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_boots\"}}",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:mending"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
