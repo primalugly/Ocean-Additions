@@ -10,7 +10,7 @@
               "items": [
                 "minecraft:leather_helmet"
               ],
-              "nbt": "{oa:{id:\"ocean_king_helmet\"}}",
+              "nbt": "{oa:{id:\"ocean_king_helmet\",damaged:1b}}",
               "enchantments": [
                 {
                   "enchantment": "minecraft:mending"
@@ -29,7 +29,7 @@
               "items": [
                 "minecraft:leather_chestplate"
               ],
-              "nbt": "{oa:{id:\"ocean_king_chestplate\"}}",
+              "nbt": "{oa:{id:\"ocean_king_chestplate\",damaged:1b}}",
               "enchantments": [
                 {
                   "enchantment": "minecraft:mending"
@@ -48,7 +48,7 @@
               "items": [
                 "minecraft:leather_leggings"
               ],
-              "nbt": "{oa:{id:\"ocean_king_leggings\"}}",
+              "nbt": "{oa:{id:\"ocean_king_leggings\",damaged:1b}}",
               "enchantments": [
                 {
                   "enchantment": "minecraft:mending"
@@ -67,7 +67,7 @@
               "items": [
                 "minecraft:leather_boots"
               ],
-              "nbt": "{oa:{id:\"ocean_king_boots\"}}",
+              "nbt": "{oa:{id:\"ocean_king_boots\",damaged:1b}}",
               "enchantments": [
                 {
                   "enchantment": "minecraft:mending"
