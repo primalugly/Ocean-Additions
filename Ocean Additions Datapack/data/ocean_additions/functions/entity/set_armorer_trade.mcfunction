@@ -1,0 +1,4 @@
+execute as @e[type=villager,sort=nearest,limit=1,nbt={VillagerData:{level:2,profession:"minecraft:armorer"}}] run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",Count:27b},sell:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"translate":"oa.item.ocean_king_armor_repair_kit","color":"white","italic":false}',Lore:['{"translate":"oa.pack","color":"blue","italic":true}']},HideFlags:4,RepairCost:100,Unbreakable:1b,Damage:0,CustomModelData:393011,oa:{id:"ocean_king_armor_repair_kit"}}}}
+tag @e[type=villager,sort=nearest,limit=1,nbt={VillagerData:{level:2,profession:"minecraft:armorer"}}] add oa.villagerchecked
+advancement revoke @s only ocean_additions:technical/armorer
+say h
