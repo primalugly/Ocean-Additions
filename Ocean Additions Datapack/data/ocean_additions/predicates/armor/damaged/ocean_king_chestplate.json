@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "items": [
+          "minecraft:leather_chestplate"
+        ],
+        "nbt": "{oa:{id:\"ocean_king_chestplate\",damaged:1b}}"
+      }
+    }
+  }
+}

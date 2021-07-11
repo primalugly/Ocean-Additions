@@ -1,0 +1,2 @@
+execute store result score #oa.temp.item_count oa.fpvalue run clear @s minecraft:structure_block{oa:{id:"lobster_shell"}} 0
+execute if score @s oa.level matches 3.. run execute if predicate ocean_additions:armor/is_damaged if score #oa.temp.item_count oa.fpvalue matches 2.. run function ocean_additions:item/ocean_king_armor_repair_kit/repair
