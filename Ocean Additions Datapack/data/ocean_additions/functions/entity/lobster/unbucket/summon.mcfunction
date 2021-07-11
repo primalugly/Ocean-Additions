@@ -1,4 +1,3 @@
-
 tag @s add oa.tag
 scoreboard players set #oa.world.input oa.fpvalue 8
 function ocean_additions:world/rng/rand 
@@ -9,3 +8,4 @@ execute as @e[type=wandering_trader,limit=1,sort=nearest,tag=oa.lobster.start] r
 item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{oa:{id:"lobster_bucket"}}}}] weapon.mainhand with minecraft:bucket
 playsound minecraft:item.bucket.empty_fish neutral @a[distance=..16]
 data modify entity @e[limit=1,sort=nearest,type=wandering_trader,tag=oa.lobster] DeathTime set value 18s
+team join global.antivil @e[distance=..1,type=wandering_trader,tag=oa.lobster,limit=1,sort=nearest]

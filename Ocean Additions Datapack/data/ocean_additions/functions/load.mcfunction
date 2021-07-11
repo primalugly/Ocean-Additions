@@ -20,3 +20,5 @@ schedule function ocean_additions:entity/lobster/reload 5t
 scoreboard objectives add kiko.id dummy
 scoreboard objectives add kiko.frame dummy
 scoreboard objectives add kiko.data dummy
+
+team add global.antivil

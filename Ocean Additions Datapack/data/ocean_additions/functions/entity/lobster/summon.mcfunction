@@ -6,3 +6,4 @@ execute if score #oa.world.output oa.fpvalue matches 7 run summon wandering_trad
 data modify entity @e[limit=1,sort=nearest,type=wandering_trader,tag=oa.lobster] Rotation[0] set from entity @s Rotation[0]
 tp @e[type=squid,distance=..0.1] ~ ~-400 ~
 data modify entity @e[limit=1,sort=nearest,type=wandering_trader,tag=oa.lobster] DeathTime set value 18s
+team join global.antivil @e[distance=..1,type=wandering_trader,tag=oa.lobster,limit=1,sort=nearest]
