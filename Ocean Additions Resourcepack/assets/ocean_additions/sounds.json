@@ -18,5 +18,11 @@
             "minecraft:block/pointed_dripstone/land2"
         ],
         "subtitle" : "oa.subtitle.entity.kings_claw.crack"
+    },
+    "entity.ocean_king.summon": {
+        "sounds":   [
+            "ocean_additions:entity/ocean_king/summon"
+        ],
+        "subtitle" : "oa.subtitle.entity.ocean_king.summon"
     }
 }

@@ -12,6 +12,7 @@
     { "predicate": {"custom_model_data": 393005},"model": "ocean_additions:item/broke_kings_claw_2"},
     { "predicate": {"custom_model_data": 393006},"model": "ocean_additions:item/broke_kings_claw_3"},
     { "predicate": {"custom_model_data": 393007},"model": "ocean_additions:item/broken_kings_claw"},
-    { "predicate": {"custom_model_data": 393008},"model": "ocean_additions:item/ocean_king_armor_repair_kit"}
+    { "predicate": {"custom_model_data": 393008},"model": "ocean_additions:item/ocean_king_armor_repair_kit"},
+    { "predicate": {"custom_model_data": 393009},"model": "ocean_additions:item/ocean_core"}
   ]
 }

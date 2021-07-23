@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"ocean_king_armor_repair_kit\"},oa.item:1b,CustomModelData:393011,}"
+                "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,oa:{id:\"ocean_king_armor_repair_kit\"},oa.item:1b,CustomModelData:393008,}"
               },
               {
                 "function": "minecraft:set_name",
