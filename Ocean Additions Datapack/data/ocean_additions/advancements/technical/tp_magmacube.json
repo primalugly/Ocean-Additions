@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:magma_cube",
+              "nbt": "{Tags:[\"oa_damage\",\"global.ignore\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ocean_additions:entity/tp_magmacube"
+    }
+  }  
