@@ -1,2 +1,3 @@
 schedule function ocean_additions:second_0_5 5s replace
 execute as @e[type=minecraft:squid,tag=!oa.checked] run function ocean_additions:entity/lobster/check_squid
+execute if entity @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] run execute as @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] at @s run function ocean_additions:entity/ocean_king/check_blocks

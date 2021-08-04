@@ -21,5 +21,5 @@ scoreboard objectives add kiko.frame dummy
 scoreboard objectives add kiko.data dummy
 
 team add oa.ocean_king
-team modify oa.ocean_king collisionRule pushOtherTeams
+team modify oa.ocean_king collisionRule never
 team add global.antivil

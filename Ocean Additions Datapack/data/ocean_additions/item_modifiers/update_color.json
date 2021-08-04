@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "ocean_additions:temp.ocean_king.display"
+    },
+    "ops": [
+      {
+        "source": "color",
+        "target": "display.color",
+        "op": "replace"
+      }
+    ]
+  }
+  

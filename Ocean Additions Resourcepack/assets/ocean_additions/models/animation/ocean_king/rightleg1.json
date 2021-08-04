@@ -25,7 +25,7 @@
       },
       "faces": {
         "north": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.125,
             14.5,
@@ -34,7 +34,7 @@
           ]
         },
         "south": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.375,
             14.5,
@@ -43,7 +43,7 @@
           ]
         },
         "east": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.0,
             14.5,
@@ -52,7 +52,7 @@
           ]
         },
         "west": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.25,
             14.5,
@@ -61,7 +61,7 @@
           ]
         },
         "up": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.25,
             14.5,
@@ -70,7 +70,7 @@
           ]
         },
         "down": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.375,
             14.375,
@@ -102,7 +102,7 @@
       },
       "faces": {
         "north": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.625,
             14.5,
@@ -111,7 +111,7 @@
           ]
         },
         "south": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.875,
             14.5,
@@ -120,7 +120,7 @@
           ]
         },
         "east": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.5,
             14.5,
@@ -129,7 +129,7 @@
           ]
         },
         "west": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.75,
             14.5,
@@ -138,7 +138,7 @@
           ]
         },
         "up": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.75,
             14.5,
@@ -147,7 +147,7 @@
           ]
         },
         "down": {
-          "texture": "#all",
+          "texture": "#all", "tintindex": 0,
           "uv": [
             0.875,
             14.375,
