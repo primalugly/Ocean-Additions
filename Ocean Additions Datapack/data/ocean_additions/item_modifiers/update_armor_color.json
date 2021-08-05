@@ -6,7 +6,7 @@
     },
     "ops": [
       {
-        "source": "root.temp.ocean_king.display.color",
+        "source": "root.temp.ocean_king_armor.display.color",
         "target": "display.color",
         "op": "replace"
       }

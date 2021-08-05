@@ -62,6 +62,8 @@
     "minecraft:soul_torch",
     "minecraft:glow_lichen",
     "minecraft:hanging_roots",
-    "minecraft:spore_blossom"
+    "minecraft:spore_blossom",
+    "minecraft:grass",
+    "minecraft:tall_grass"
   ]
 }

@@ -24,5 +24,13 @@
             "ocean_additions:entity/ocean_king/summon"
         ],
         "subtitle" : "oa.subtitle.entity.ocean_king.summon"
+    },
+    "entity.ocean_king.hurt": {
+        "sounds":   [
+            "ocean_additions:entity/ocean_king/hurt1",
+            "ocean_additions:entity/ocean_king/hurt2",
+            "ocean_additions:entity/ocean_king/hurt3"
+        ],
+        "subtitle" : "oa.subtitle.entity.ocean_king.hurt"
     }
 }
