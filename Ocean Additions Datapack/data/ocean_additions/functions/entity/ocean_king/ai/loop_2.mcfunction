@@ -1,4 +1,4 @@
-execute positioned ~ ~-1.1 ~ run tp @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] ^-.3 ^ ^ facing ^ ^ ^4
+execute positioned ~ ~-1.5 ~ run tp @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] ^-.3 ^ ^ facing ^ ^ ^4
 data modify entity @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] Rotation[1] set value 0.0f
 execute as @e[type=slime,tag=oa.ocean_king.hurtbox,sort=nearest,limit=1] run function ocean_additions:entity/ocean_king/ai/loop_3
 data modify storage ocean_additions:temp.ocean_king Rotation set from entity @s Rotation[0]
