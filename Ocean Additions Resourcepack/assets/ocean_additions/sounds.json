@@ -32,5 +32,10 @@
             "ocean_additions:entity/ocean_king/hurt3"
         ],
         "subtitle" : "oa.subtitle.entity.ocean_king.hurt"
+    },
+    "music.ocean_king": {
+        "sounds":   [
+            "ocean_additions:entity/ocean_king/music"
+        ]
     }
 }

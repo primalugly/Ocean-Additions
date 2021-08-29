@@ -17,6 +17,9 @@
     "oa.entity.lobster" : "Lobster",
     "oa.entity.ocean_king" : "Ocean King",
     "oa.entity.kings_claw" : "King's Claw",
+    "oa.entity.charge_end" : "their hubris (and Ocean King)",
+    "oa.entity.flurry" : "Ocean King",
+    "oa.entity.charge_punch" : "Ocean King",
 
     "oa.durability" : "Durability: ",
 

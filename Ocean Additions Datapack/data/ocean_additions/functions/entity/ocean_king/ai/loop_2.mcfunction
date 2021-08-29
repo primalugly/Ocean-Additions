@@ -6,3 +6,6 @@ execute as @e[type=minecraft:armor_stand,distance=..6,tag=kiko.bone] run data mo
 execute if entity @s[predicate=!ocean_additions:still] run tag @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] add oa.moving
 execute if entity @s[predicate=ocean_additions:still] run tag @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root,limit=1,sort=nearest] remove oa.moving
 execute as @e[type=armor_stand,distance=..5,tag=kiko.bone] run item modify entity @s armor.head ocean_additions:update_color
+execute unless entity @p[distance=..50] run function ocean_additions:entity/ocean_king/despawn
+scoreboard players add @s oa.timer 1
+execute if score @s oa.timer matches 3600 run function ocean_additions:entity/ocean_king/loop_music
