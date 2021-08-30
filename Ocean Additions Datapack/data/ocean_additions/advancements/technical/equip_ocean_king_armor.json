@@ -1,76 +1,87 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:alternative",
-              "terms": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "head": {
-                        "items": [
-                          "minecraft:leather_helmet"
-                        ],
-                        "nbt": "{oa:{id:\"ocean_king_helmet\"}}"
-                      }
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "chest": {
-                        "items": [
-                          "minecraft:leather_chestplate"
-                        ],
-                        "nbt": "{oa:{id:\"ocean_king_chestplate\"}}"
-                      }
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "legs": {
-                        "items": [
-                          "minecraft:leather_leggings"
-                        ],
-                        "nbt": "{oa:{id:\"ocean_king_leggings\"}}"
-                      }
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "equipment": {
-                      "feet": {
-                        "items": [
-                          "minecraft:leather_boots"
-                        ],
-                        "nbt": "{oa:{id:\"ocean_king_boots\"}}"
-                      }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "head": {
+                      "items": [
+                        "minecraft:leather_helmet"
+                      ],
+                      "nbt": "{oa:{id:\"ocean_king_helmet\"}}"
                     }
                   }
                 }
-              ]
-            }
-          ]
-        }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "chest": {
+                      "items": [
+                        "minecraft:leather_chestplate"
+                      ],
+                      "nbt": "{oa:{id:\"ocean_king_chestplate\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "legs": {
+                      "items": [
+                        "minecraft:leather_leggings"
+                      ],
+                      "nbt": "{oa:{id:\"ocean_king_leggings\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                      "items": [
+                        "minecraft:leather_boots"
+                      ],
+                      "nbt": "{oa:{id:\"ocean_king_boots\"}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ]
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "ocean_additions:entity/player/equip_ocean_king_armor"
     }
+  },
+  "rewards": {
+    "function": "ocean_additions:entity/player/equip_ocean_king_armor"
   }
-  
+}

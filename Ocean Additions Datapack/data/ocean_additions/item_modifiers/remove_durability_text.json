@@ -7,7 +7,7 @@
     },
     "ops": [
       {
-        "source": "root.temp.item.tag.oa",
+        "source": "root.temp.armor.tag.oa",
         "target": "oa",
         "op": "replace"
       }

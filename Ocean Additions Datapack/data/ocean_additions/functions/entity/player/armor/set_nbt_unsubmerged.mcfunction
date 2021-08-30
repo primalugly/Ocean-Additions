@@ -4,3 +4,4 @@ execute if entity @s[predicate=ocean_additions:armor/ocean_king_boots] run funct
 execute if entity @s[predicate=ocean_additions:armor/ocean_king_helmet] run function ocean_additions:entity/player/armor/unsubmerged/helmet
 execute if entity @s[predicate=ocean_additions:armor/ocean_king_chestplate] run function ocean_additions:entity/player/armor/unsubmerged/chestplate
 execute if entity @s[predicate=ocean_additions:armor/ocean_king_leggings] run function ocean_additions:entity/player/armor/unsubmerged/leggings
+data remove storage oa:storage root.temp.armor

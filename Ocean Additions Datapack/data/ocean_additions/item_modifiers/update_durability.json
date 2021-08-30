@@ -7,7 +7,7 @@
     },
     "ops": [
       {
-        "source": "root.temp.item.tag.oa",
+        "source": "root.temp.armor.tag.oa",
         "target": "oa",
         "op": "replace"
       }
@@ -44,7 +44,7 @@
             "italic": false
           },
           {
-            "nbt": "root.temp.item.tag.oa.maxDurability",
+            "nbt": "root.temp.armor.tag.oa.maxDurability",
             "storage": "oa:storage"
           }
         ]

@@ -7,7 +7,7 @@
       },
       "ops": [
         {
-          "source": "root.temp.item",
+          "source": "root.temp.armor",
           "target": "AttributeModifiers",
           "op": "replace"
         }
