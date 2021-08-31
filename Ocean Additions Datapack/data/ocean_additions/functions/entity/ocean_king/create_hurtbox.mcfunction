@@ -2,4 +2,4 @@ execute positioned ~ ~2.1 ~ positioned ^.3 ^ ^ run summon drowned ~ ~ ~ {Persist
 execute positioned ~ ~2.1 ~ positioned ^.3 ^ ^ run summon slime ~ ~ ~ {PersistenceRequired:true,Team:"oa.ocean_king",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999999,ShowParticles:0b}],NoGravity:1b,Silent:1b,CustomNameVisible:0b,DeathLootTable:"_",NoAI:1b,CanPickUpLoot:0b,Health:200f,Size:2,Tags:["global.ignore","oa.ocean_king.hurtbox"],Attributes:[{Name:"generic.max_health",Base:200},{Name:"generic.follow_range",Base:0},{Name:"generic.knockback_resistance",Base:2},{Name:"generic.movement_speed",Base:0},{Name:"generic.attack_damage",Base:0},{Name:"generic.attack_knockback",Base:0}]}
 function ocean_additions:animations/ocean_king/walk_start
 tag @s remove ocean_additions.r.summon
-playsound ocean_additions:music.ocean_king music @a[distance=..50] ~ ~ ~
+playsound ocean_additions:music.ocean_king music @a[distance=..50] ~ ~ ~ 50
