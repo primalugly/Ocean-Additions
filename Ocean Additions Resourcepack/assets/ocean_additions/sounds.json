@@ -33,6 +33,19 @@
         ],
         "subtitle" : "oa.subtitle.entity.ocean_king.hurt"
     },
+    "entity.ocean_king.attack": {
+        "sounds":   [
+            "ocean_additions:entity/ocean_king/attack1",
+            "ocean_additions:entity/ocean_king/attack2"
+        ],
+        "subtitle" : "oa.subtitle.entity.ocean_king.attack"
+    },
+    "entity.ocean_king.death": {
+        "sounds":   [
+            "ocean_additions:entity/ocean_king/death"
+        ],
+        "subtitle" : "oa.subtitle.entity.ocean_king.death"
+    },
     "music.ocean_king": {
         "sounds":   [
             "ocean_additions:entity/ocean_king/music"

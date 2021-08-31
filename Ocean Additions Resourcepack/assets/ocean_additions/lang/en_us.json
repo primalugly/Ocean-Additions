@@ -18,7 +18,7 @@
     "oa.entity.ocean_king" : "Ocean King",
     "oa.entity.kings_claw" : "King's Claw",
     "oa.entity.charge_end" : "their hubris (and Ocean King)",
-    "oa.entity.flurry" : "Ocean King",
+    "oa.entity.flurry_punch" : "Ocean King",
     "oa.entity.charge_punch" : "Ocean King",
 
     "oa.durability" : "Durability: ",
@@ -30,6 +30,8 @@
     "oa.subtitle.entity.kings_claw.crack": "King's Claw Cracked",
 
     "oa.subtitle.entity.ocean_king.hurt" : "Ocean King Hurts",
+    "oa.subtitle.entity.ocean_king.attack" : "Ocean King Attacks",
+    "oa.subtitle.entity.ocean_king.death" : "Ocean King Dies",
 
     "oa.subtitle.entity.ocean_king.summon" : "Ocean King Summoned",
     

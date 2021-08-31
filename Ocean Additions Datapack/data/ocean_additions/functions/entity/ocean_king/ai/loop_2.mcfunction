@@ -8,4 +8,4 @@ execute if entity @s[predicate=ocean_additions:still] run tag @e[type=minecraft:
 execute as @e[type=armor_stand,distance=..5,tag=kiko.bone] run item modify entity @s armor.head ocean_additions:update_color
 execute unless entity @p[distance=..50] run function ocean_additions:entity/ocean_king/despawn
 scoreboard players add @s oa.timer 1
-execute if score @s oa.timer matches 3640 run function ocean_additions:entity/ocean_king/loop_music
+execute if score @s oa.timer matches 3600 run function ocean_additions:entity/ocean_king/loop_music
