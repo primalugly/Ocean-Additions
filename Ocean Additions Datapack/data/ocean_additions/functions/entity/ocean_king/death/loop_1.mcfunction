@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=oa.ocean_king.death_marker] at @s run function ocean_additions:entity/ocean_king/death/loop_2

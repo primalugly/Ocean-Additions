@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CHC",
+    "PPP"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+	    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+	    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

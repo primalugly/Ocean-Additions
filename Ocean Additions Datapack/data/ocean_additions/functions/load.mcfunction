@@ -15,6 +15,7 @@ scoreboard objectives add oa.pos.z dummy
 scoreboard objectives add oa.xp xp
 scoreboard objectives add oa.past_xp dummy
 scoreboard objectives add oa.gained_xp dummy
+scoreboard objectives add oa.crafted_item minecraft.crafted:minecraft.knowledge_book
 
 scoreboard objectives add kiko.id dummy
 scoreboard objectives add kiko.frame dummy
