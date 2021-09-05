@@ -1,0 +1,1 @@
+execute unless entity @e[type=minecraft:marker,tag=ocean_additions.ocean_king.root] if entity @s[nbt={Dimension:"minecraft:overworld"}] run function ocean_additions:entity/ocean_king/summon 
