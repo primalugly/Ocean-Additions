@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:393003}"
+      },
+      "title": {
+        "translate": "oa.advancement.title.kill_ocean_king"
+      },
+      "description": {
+        "translate": "oa.advancement.description.kill_ocean_king"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "ocean_additions:adventure/ocean_core",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

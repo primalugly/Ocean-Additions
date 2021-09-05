@@ -1,0 +1,57 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:leather_chestplate",
+        "nbt": "{CustomModelData:393000}"
+      },
+      "title": {
+        "translate": "oa.advancement.title.ocean_king_armor"
+      },
+      "description": {
+        "translate": "oa.advancement.description.ocean_king_armor"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "ocean_additions:adventure/kill_ocean_king",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [],
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_helmet\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_chestplate"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_chestplate\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_leggings"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_leggings\"}}"
+            },
+            {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "nbt": "{oa:{id:\"ocean_king_boots\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 50
+    }
+  }
+  

@@ -25,14 +25,24 @@
 
     "oa.bossbar.ocean_king" : "\ubbb1",
 
+    "oa.advancement.title.heart_of_the_sea" : "Ocean Star",
+    "oa.advancement.description.heart_of_the_sea" : "Acquire a Heart of the Sea",
+    "oa.advancement.title.ocean_core" : "Atlantis",
+    "oa.advancement.description.ocean_core" : "Acquire an Ocean Core",
+    "oa.advancement.title.kill_ocean_king" : "Long live the king",
+    "oa.advancement.description.kill_ocean_king" : "Slay the Ocean King",
+    "oa.advancement.title.ocean_king_armor" : "Cover Me in ...Chitin",
+    "oa.advancement.description.ocean_king_armor" : "Get a full suit of Ocean King armor",
+    "oa.advancement.title.bucket_lobster" : "It wasn't a rock",
+    "oa.advancement.description.bucket_lobster" : "Catch a Lobster in a bucket",
+
+
     "oa.subtitle.entity.kings_claw.impact" : "King's Claw Hit",
     "oa.subtitle.entity.kings_claw.repair": "King's Claw Repaired",
     "oa.subtitle.entity.kings_claw.crack": "King's Claw Cracked",
-
     "oa.subtitle.entity.ocean_king.hurt" : "Ocean King Hurts",
     "oa.subtitle.entity.ocean_king.attack" : "Ocean King Attacks",
     "oa.subtitle.entity.ocean_king.death" : "Ocean King Dies",
-
     "oa.subtitle.entity.ocean_king.summon" : "Ocean King Summoned",
     
     "oa.pack" : "Ocean Additions"
