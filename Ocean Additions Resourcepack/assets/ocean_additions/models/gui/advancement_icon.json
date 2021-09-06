@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "ocean_additions:gui/advancement_icon"
+    },
+    "display": {
+      "gui": {
+        "scale": [2, 2, 2]
+      }
+    }
+  }
+  

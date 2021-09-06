@@ -12,3 +12,4 @@ execute as @e[type=armor_stand,distance=..3,limit=1,tag=oa.kings_claw,tag=!oa.ro
 tag @e[type=armor_stand,distance=..3,limit=1,tag=oa.kings_claw,tag=!oa.rotated] add oa.rotated
 function ocean_additions:item/kings_claw/loop1
 playsound ocean_additions:entity.kings_claw.crack player @s
+scoreboard players reset #oa.temp.cmd

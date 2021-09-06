@@ -69,6 +69,7 @@
         }
       }
     },
+    "parent": "ocean_additions:technical/root",
     "rewards": {
       "function": "ocean_additions:entity/player/equip_ocean_king_armor"
     }

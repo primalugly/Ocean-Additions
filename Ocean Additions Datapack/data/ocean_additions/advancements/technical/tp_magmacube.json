@@ -12,6 +12,7 @@
         }
       }
     },
+    "parent": "ocean_additions:technical/root",
     "rewards": {
       "function": "ocean_additions:entity/tp_magmacube"
     }

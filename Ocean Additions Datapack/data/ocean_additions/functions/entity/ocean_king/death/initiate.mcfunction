@@ -2,6 +2,7 @@ data modify storage oa:storage root.temp.ocean_king.display.color set value 1677
 execute as @e[type=armor_stand,distance=..5,tag=kiko.bone] run item modify entity @s armor.head ocean_additions:update_color
 execute as @e[type=marker,tag=ocean_additions.ocean_king.root,limit=1] run function ocean_additions:entity/ocean_king/stop_idle
 execute as @e[type=marker,tag=ocean_additions.ocean_king.root,limit=1] run tag @s remove ocean_additions.r.attack
+scoreboard players reset #oa.temp.bossbar oa.fpvalue
 data modify entity @s Size set value 0
 particle minecraft:explosion ~ ~1 ~ .8 .8 .8 0 1 normal
 bossbar remove minecraft:oa.ocean_king

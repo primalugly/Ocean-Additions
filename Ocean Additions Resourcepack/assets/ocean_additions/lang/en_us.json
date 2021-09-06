@@ -35,7 +35,9 @@
     "oa.advancement.description.ocean_king_armor" : "Get a full suit of Ocean King armor",
     "oa.advancement.title.bucket_lobster" : "It wasn't a rock",
     "oa.advancement.description.bucket_lobster" : "Catch a Lobster in a bucket",
-
+    "oa.advancements.installed_datapacks_menu.description_1" : "Datapack that adds more water related content.\n",
+    "oa.config.version" : "v1.0.0\n",
+    "oa.advancements.installed_datapacks_menu.description_2" : "Developed By:\n- Primalugly\n\nArtists:\n- Primalugly\n- ElBones\n",
 
     "oa.subtitle.entity.kings_claw.impact" : "King's Claw Hit",
     "oa.subtitle.entity.kings_claw.repair": "King's Claw Repaired",
@@ -45,5 +47,7 @@
     "oa.subtitle.entity.ocean_king.death" : "Ocean King Dies",
     "oa.subtitle.entity.ocean_king.summon" : "Ocean King Summoned",
     
-    "oa.pack" : "Ocean Additions"
+    "oa.pack" : "Ocean Additions",
+    "OCEAN ADDITIONS\n(MISSING RESOURCES)": "%s",
+    "The Ocean Additions Resource Pack is not installed.": "%s"
 }
