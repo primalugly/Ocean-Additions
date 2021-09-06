@@ -1,0 +1,1 @@
+tellraw @s [{"translate":"oa.error:","with":[[{"translate": "oa.message.install.1"}]],"color":"blue"},{"translate":"The Ocean Additions Resource Pack is not installed.\nRun |/function ocean_additions:send_load_message| to check again","with":[[{"translate": "oa.message.install.2"}]],"color":"red"}]

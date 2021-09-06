@@ -13,6 +13,7 @@ scoreboard objectives remove kiko.id
 scoreboard objectives remove kiko.frame
 scoreboard objectives remove kiko.data
 data remove storage oa:storage root
+data remove storage oa:storage rootus
 data remove storage oa:storage temp
 team remove oa.ocean_king
 function ocean_additions:kill/lobster

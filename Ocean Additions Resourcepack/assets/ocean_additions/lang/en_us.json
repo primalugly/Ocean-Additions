@@ -48,6 +48,10 @@
     "oa.subtitle.entity.ocean_king.summon" : "Ocean King Summoned",
     
     "oa.pack" : "Ocean Additions",
+    "oa.error:" : "%s",
+    "oa.message.install.1" : "Ocean Additions successfully installed.\n",
+    "oa.message.install.2" : "If you downloaded this datapack from anywhere that isn't from planetminecraft.com, datapackcenter.com, or Github then you have downloaded from a site that steals creators work and or you may have installed unwanted malware.",
     "OCEAN ADDITIONS\n(MISSING RESOURCES)": "%s",
-    "The Ocean Additions Resource Pack is not installed.": "%s"
+    "The Ocean Additions Resource Pack is not installed.": "%s",
+    "The Ocean Additions Resource Pack is not installed.\nRun |/function ocean_additions:send_load_message| to check again": "%s"
 }
