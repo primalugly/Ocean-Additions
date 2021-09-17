@@ -1,1 +1,0 @@
-execute as @e[type=area_effect_cloud,tag=oa.kings_claw] at @s run function ocean_additions:item/kings_claw/loop2

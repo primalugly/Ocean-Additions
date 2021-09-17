@@ -1,3 +1,0 @@
-advancement revoke @s only ocean_additions:technical/equip_ocean_king_armor
-function ocean_additions:entity/player/armor/testfor_advancement
-function ocean_additions:entity/player/armor/change_color

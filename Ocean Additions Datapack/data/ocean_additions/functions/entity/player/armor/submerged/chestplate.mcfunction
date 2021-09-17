@@ -1,2 +1,0 @@
-data modify storage oa:storage root.temp.armor set value [{Amount: 8, Slot: "chest", AttributeName: "generic.armor", Operation: 0, UUID: [I; 393000, 393000, 393000, 2], Name:"generic.armor"},{Amount: 3, Slot: "chest", AttributeName: "generic.armor_toughness", Operation: 0, UUID: [I; 393000, 393000, 393001, 2], Name:"generic.armor_toughness"},{Amount: 0.50, Slot: "chest", AttributeName: "generic.attack_speed", Operation: 0, UUID: [I; 393000, 393000, 393002, 2], Name:"generic.attack_speed"}]
-item modify entity @s armor.chest ocean_additions:update_attributes

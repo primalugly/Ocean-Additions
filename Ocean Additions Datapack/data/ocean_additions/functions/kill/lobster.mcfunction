@@ -1,1 +1,0 @@
-kill @e[type=wandering_trader,tag=oa.lobster]

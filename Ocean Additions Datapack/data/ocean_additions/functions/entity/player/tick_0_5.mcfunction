@@ -1,2 +1,0 @@
-execute if entity @s[predicate=ocean_additions:armor/has_mending] run function ocean_additions:entity/player/armor/durability/mending/detect_xp_change
-execute unless entity @s[predicate=ocean_additions:armor/has_mending] run scoreboard players operation @s oa.past_xp = @s oa.xp

@@ -1,1 +1,0 @@
-loot replace entity @s weapon.mainhand loot ocean_additions:technical/lobster_model_brown

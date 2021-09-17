@@ -1,1 +1,0 @@
-execute if entity @s[type=minecraft:wandering_trader,tag=oa.lobster] run function ocean_additions:entity/lobster/tick

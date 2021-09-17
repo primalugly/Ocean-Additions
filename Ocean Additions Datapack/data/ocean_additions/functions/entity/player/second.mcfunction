@@ -1,1 +1,0 @@
-execute if entity @s[predicate=ocean_additions:armor/ocean_king_armor] run function ocean_additions:entity/player/armor/testfor
