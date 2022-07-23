@@ -15,3 +15,5 @@ View [this](https://github.com/primalugly/Ocean-Additions/wiki/Installation) for
 For support, join my discord server [here](https://discord.gg/UY6mAcMxsH)
 
 If you are using smithed and want emissive textures on the items and mobs that should have them, install [this resourcepack](https://github.com/primalugly/Ocean-Additions/releases/download/untagged-0c3212d7f13518a76031/Ocean_Additions_Resourcepack_Emissives.zip), however it may not work on your system.
+
+![](https://user-images.githubusercontent.com/41960298/180625491-b9bcd6d6-4a77-4cc4-a560-f89b8377737e.png)
